@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coupon Calculator</title>
+		<link href="couponcalculator.css" rel="stylesheet">
+	</head>
+	<body>
+		<h3>Coupon Calculator</h3>
+		<label for="itemValue">Item Price: $</label>
+		<input type="number" id="itemPrice">
+		<label for="couponValue">Coupon Value: </label>
+		<input type="number" id="couponValue">
+			<select id="couponType">
+				<option value="dollar">Dollar</option>
+				<option value="percentage">Percentage</option>
+			</select>
+		<div id="submit">Submit</div>
+		<div class="hidden" id="afterCoupons">
+			After Coupons: $<div id="afterPrice"></div>
+		</div>
+		<script src="couponcalculator.js"></script>
+	</body>
+</html>

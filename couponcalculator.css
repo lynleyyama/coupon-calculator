@@ -1,0 +1,16 @@
+#submit{
+	outline: 1px solid black;
+	width: 5%;
+}
+
+input {
+	outline: 1px solid black;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.visible{
+	visibility: visible;
+}
