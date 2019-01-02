@@ -14,3 +14,7 @@ input {
 .visible{
 	visibility: visible;
 }
+
+#afterCoupons {
+	display: flex;
+}
